@@ -42,7 +42,7 @@ def respond(message, history):
 # Create Gradio interface
 demo = gr.ChatInterface(
     fn=respond,
-    title=“ISP 🐬 AI Club 🤖 Project #1: Creating a Basic Chatbot",
+    title=“ISP 🐬 AI Club 🤖 Project #1: Creating a Custom Chatbot",
     description="Chat with a Groq-powered LLM assistant",
     theme=gr.themes.Soft()
 )
