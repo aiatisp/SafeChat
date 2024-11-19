@@ -8,17 +8,17 @@
 
 1.2. Create new folder
 
-'''
+```
 mkdir -p "AI_Club/Chatbot"
 
 cd "AI_Club/Chatbot"
-'''
+```
 
 1.3. Recreate the requirements.txt file and install dependencies
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 1.4. Recreate the .env file and add your API key
 
@@ -26,9 +26,9 @@ pip install -r requirements.txt
 
 1.6. Run 
 
-'''
+```
 python app.py
-'''
+```
 
 **2. Learn how to add a content moderation feature**
 
@@ -36,6 +36,6 @@ python app.py
 
 2.2. Run
 
-'''
+```
 python safe_app.py
-'''
+```
