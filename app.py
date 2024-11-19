@@ -33,7 +33,7 @@ def respond(message, history):
     response = client.chat.completions.create(
 	      model=“gemma2-9b-it”,
         messages=chat_messages,
-        max_tokens=100,
+        max_tokens=400,
         temperature=1.2
     )
     
@@ -43,7 +43,7 @@ def respond(message, history):
 demo = gr.ChatInterface(
     fn=respond,
     title=“ISP 🐬 AI Club 🤖 Project #1: Creating a Custom Chatbot",
-    description="Chat with a Groq-powered LLM assistant",
+    description="Chat with an assistant powered by an open-source LLM",
     theme=gr.themes.Soft()
 )
 
